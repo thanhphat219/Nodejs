@@ -1,0 +1,19 @@
+{
+  "name": "mongodb-connection-using-node-js",
+  "version": "1.0.0",
+  "description": "MongoDB connection using Node Js",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon test.js",
+    "start": "nodemon --inspect index.js"
+  },
+  "author": "thanhphat219",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
